@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Bootstrap trial</title>
+    
+    <style>
+        .truncate-multiple{
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 4;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <header class="text-bg-dark d-flex justify-content-around p-3">
+        <h5 class="d-flex align-items-center mb-0 fst-italic">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-building" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022zM6 8.694 1 10.36V15h5V8.694zM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5V15z"/>
+                <path d="M2 11h1v1H2v-1zm2 0h1v1H4v-1zm-2 2h1v1H2v-1zm2 0h1v1H4v-1zm4-4h1v1H8V9zm2 0h1v1h-1V9zm-2 2h1v1H8v-1zm2 0h1v1h-1v-1zm2-2h1v1h-1V9zm0 2h1v1h-1v-1zM8 7h1v1H8V7zm2 0h1v1h-1V7zm2 0h1v1h-1V7zM8 5h1v1H8V5zm2 0h1v1h-1V5zm2 0h1v1h-1V5zm0-2h1v1h-1V3z"/>
+              </svg>
+              
+            <span class="p-1">Vietnam Holidays</span>
+        </h5>
+        <nav class="nav">
+            <a href="#" class="nav-link text-bg-dark">Home</a>
+            <a href="#" class="nav-link text-bg-dark">About Us</a>
+            <a href="#" class="nav-link text-bg-dark">Services</a>
+            <a href="#" class="nav-link text-bg-dark">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container w-75" >
+            <div class="d-flex justify-content-center mt-5 mb-5">
+                <div class="p-5 bg-secondary bg-opacity-10 d-flex flex-column justify-content-center" style="height: 350px;">
+                    <p class="fs-1 ">Excursions in Vietnam</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis corporis veritatis quae quidem, recusandae possimus iusto praesentium, nemo ipsa, at itaque adipisci voluptate facere beatae deserunt sit mollitia pariatur est?</p>
+                    <button type="button" class="btn btn-primary w align-self-start">Book excursion</button>
+                </div>
+            </div> 
+
+            <div class="d-flex justify-content-between mb-5 flex-wrap">
+                <div class="card mb-5" style="width: 15rem; height: 25rem;">
+                    <img src="images\Tet.jpg" class="card-img-top " alt="...">
+                    <div class="card-body text-center border-bottom">
+                        <h6 class="card-title">Tet Holidays</h6>
+                        <p class="card-text truncate-multiple">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum corporis asperiores dolor distinctio. Atque, error distinctio. Unde eum deleniti ullam quod optio sapiente saepe, qui culpa molestias officia voluptatem nam.</p>
+                    </div>
+                    <div class="bg-secondary bg-opacity-10 d-flex justify-content-center">
+                        <button type="button" class="btn btn-primary btn-sm m-2">More details</button>
+                    </div>
+                </div>
+
+                <div class="card mb-5" style="width: 15rem; height: 25rem;">
+                    <img src="images\hoi-an-at-night-2.jpg" class="card-img-top " alt="...">
+                    <div class="card-body text-center border-bottom">
+                        <h6 class="card-title">Hoi An Ancien Town</h6>
+                        <p class="card-text truncate-multiple">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum corporis asperiores dolor distinctio. Atque, error distinctio. Unde eum deleniti ullam quod optio sapiente saepe, qui culpa molestias officia voluptatem nam.</p>
+                    </div>
+                    <div class="bg-secondary bg-opacity-10 d-flex justify-content-center">
+                        <button type="button" class="btn btn-primary btn-sm m-2">More details</button>
+                    </div>
+                </div>
+
+                
+
+                <div class="card mb-5" style="width: 15rem; height: 25rem;">
+                    <img src="images\westLake.jpg" class="card-img-top " alt="...">
+                    <div class="card-body text-center border-bottom">
+                        <h6 class="card-title">Ho Guom Lake</h6>
+                        <p class="card-text truncate-multiple">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum corporis asperiores dolor distinctio. Atque, error distinctio. Unde eum deleniti ullam quod optio sapiente saepe, qui culpa molestias officia voluptatem nam.</p>
+                    </div>
+                    <div class="bg-secondary bg-opacity-10 d-flex justify-content-center">
+                        <button type="button" class="btn btn-primary btn-sm m-2">More details</button>
+                    </div>
+                </div>
+
+                
+                <div class="card mb-5" style="width: 15rem; height: 25rem;">
+                    <img src="images\pho_co_ha_noi_01-2 edited.jpg" class="card-img-top " alt="...">
+                    <div class="card-body text-center border-bottom">
+                        <h6 class="card-title">Hanoi Old Street</h6>
+                        <p class="card-text truncate-multiple">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum corporis asperiores dolor distinctio. Atque, error distinctio. Unde eum deleniti ullam quod optio sapiente saepe, qui culpa molestias officia voluptatem nam.</p>
+                    </div>
+                    <div class="bg-secondary bg-opacity-10 d-flex justify-content-center">
+                        <button type="button" class="btn btn-primary btn-sm m-2">More details</button>
+                    </div>
+                </div>
+                
+                
+
+                
+            </div>
+        </div>
+    </main>
+
+    <footer class="text-bg-dark p-3 d-flex justify-content-center align-items-center">
+        Copyright &#169 Vietnam Holidays, 2022
+    </footer>
+</body>
+</html>
